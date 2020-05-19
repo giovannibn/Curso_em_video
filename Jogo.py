@@ -15,6 +15,6 @@ elif x=="2":
 else:
     print("Escolha o tipo de aposta, 1-Mega Sena ou 2=Quina")
 
-#Colocar na ordem
+#Colocar números na ordem
 Mega=sorted(random.sample(range(1,60),6))
 Mega
