@@ -1,3 +1,13 @@
+# ordem de precedência nas operações
+# ()
+# **
+# *, /, //, %
+#  +, -
+
+# \n para pular linhas no print
+
+# {:>20} {:<20} {:^20} alinhamentos
+
 # AULA 007 #
 nome=str(input('Qual seu nome? '))
 print('Olá {:<20}'.format(nome))
