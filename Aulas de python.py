@@ -56,4 +56,4 @@ larg=int(input('Qual a largura: '))
 area=comp*larg
 print('Para pintar {} m2 vc precisa de: {} litos de tinta '.format(area, area/3))
 
-# Aula 008 #
+# Aula 00 #
