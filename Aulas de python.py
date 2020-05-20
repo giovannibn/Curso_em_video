@@ -48,15 +48,23 @@ print('{:2} x {} = {}'.format(9, medida, medida*9))
 print('{:2} x {} = {}'.format(10, medida, medida*10))
 print('-'*12)
 
-money=int(input('Quantos dinheiro vc tem: '))
-print('Você pode comprar {} dolares com {}'.format(money/5.85, money))
-print('Com o desconto de 5% vc tem {}'.format(money*.95))
-print('Com +15% vc tem {}'.format(money*1.15))
+money=float(input('Quantos dinheiro vc tem:R$ '))
+print('Você pode comprar Us${:.2f} com {}'.format(money/5.85, money))
+print('Com o desconto de 5% vc tem {:.2f}'.format(money*.95))
+print('Com +15% vc tem {:.2f}'.format(money*1.15))
 
 comp=int(input('Qual a comprimento: '))
 larg=int(input('Qual a largura: '))
 area=comp*larg
-print('Para pintar {} m2 vc precisa de: {} litos de tinta '.format(area, area/3))
+print('Para pintar {:.2f} m2 vc precisa de: {:.2f} litos de tinta '.format(area, area/3))
+
+tempC=float(input('Digite uma temperatura em C:'))
+print('A temperatura em F de {}C é {:.2f}F'.format(tempC, (1.8*tempC)+32))
+
+alugueldias=int(input('Quantos dias vc alugou o carro? (dias)'))
+aluguelkm=float(input('Quantos km você rodou? (km)'))
+custo=(alugueldias*60)+(aluguelkm*.15)
+print('O custo do seu aluguel de {}dias e {:.2f}km rodados é de US${:.2f}'.format(alugueldias, aluguelkm, custo))
 
 print('_'*50)
 
