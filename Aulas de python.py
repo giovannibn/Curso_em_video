@@ -68,4 +68,15 @@ print('O custo do seu aluguel de {}dias e {:.2f}km rodados é de US${:.2f}'.form
 
 print('_'*50)
 
-# Aula 00 #
+# Aula 008 #
+
+# import biblioteca as xxxx > importa toda biblioteca
+# from biblioteca import modulo importa apenas módulo
+# ceil = arredondar para cima
+# floor = arredondar para baixo
+
+import math 
+numero=int(input('Digite um número')) 
+raiz=math.sqrt(numero)
+print('A raiz de {} é {}'.format(numero, (raiz)))
+print('Arredondando para cima {} e para baixo {}'.format(math.ceil(raiz), math.floor(raiz)))
