@@ -80,3 +80,6 @@ numero=int(input('Digite um número'))
 raiz=math.sqrt(numero)
 print('A raiz de {} é {}'.format(numero, (raiz)))
 print('Arredondando para cima {} e para baixo {}'.format(math.ceil(raiz), math.floor(raiz)))
+
+import emoji
+
