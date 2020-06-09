@@ -1,0 +1,5 @@
+print('Digite três números (a, b, c)')
+a=int(input('a:'))
+b=int(input('b:'))
+c=int(input('c:'))
+print("O maior número é {} e o menor é {}".format(max(a, b, c), min(a, b, c)))
